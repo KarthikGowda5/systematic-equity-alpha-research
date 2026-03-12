@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# virtual environments
+venv/
+.env/
+
+# mac
+.DS_Store
+
+# large data
+data/raw/*
+data/processed/*
+data/outputs/*
+
+# research outputs
+*.parquet
+*.csv
+*.png
+
+# logs
+*.log
