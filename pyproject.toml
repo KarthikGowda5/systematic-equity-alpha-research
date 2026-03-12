@@ -1,0 +1,12 @@
+[project]
+name = "systematic-equity-alpha-research"
+version = "0.1.0"
+description = "Systematic equity alpha research and portfolio optimization framework"
+authors = [{name="Karthik"}]
+requires-python = ">=3.10"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
